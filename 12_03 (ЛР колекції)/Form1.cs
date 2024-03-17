@@ -93,7 +93,7 @@ namespace _12_03__ЛР_колекції_
             var maxSumArray = collection1.OrderByDescending(x => x).First();
             MessageBox.Show("Масив з максимальною сумою елементів: " + maxSumArray);
         }
-
+        //
         private void button9_Click(object sender, EventArgs e)
         {
             listBox3.Items.Clear();
