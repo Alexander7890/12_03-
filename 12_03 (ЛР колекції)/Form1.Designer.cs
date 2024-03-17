@@ -90,9 +90,9 @@
             // 
             this.button5.Location = new System.Drawing.Point(26, 292);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.Size = new System.Drawing.Size(152, 23);
             this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
+            this.button5.Text = "Додає новий label";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -100,9 +100,9 @@
             // 
             this.button6.Location = new System.Drawing.Point(26, 342);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.Size = new System.Drawing.Size(272, 23);
             this.button6.TabIndex = 5;
-            this.button6.Text = "button6";
+            this.button6.Text = "Відображає текст в відповідному label";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -110,9 +110,9 @@
             // 
             this.button7.Location = new System.Drawing.Point(26, 393);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.Size = new System.Drawing.Size(152, 23);
             this.button7.TabIndex = 6;
-            this.button7.Text = "button7";
+            this.button7.Text = "Створює масив";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
@@ -120,9 +120,9 @@
             // 
             this.button8.Location = new System.Drawing.Point(26, 453);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.Size = new System.Drawing.Size(272, 23);
             this.button8.TabIndex = 7;
-            this.button8.Text = "button8";
+            this.button8.Text = "Знаходить і показує масив з цієї колекції";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click_1);
             // 
@@ -147,7 +147,7 @@
             this.listBox3.FormattingEnabled = true;
             this.listBox3.Location = new System.Drawing.Point(711, 84);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(120, 95);
+            this.listBox3.Size = new System.Drawing.Size(328, 95);
             this.listBox3.TabIndex = 10;
             // 
             // textBox1
@@ -166,14 +166,14 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(124, 345);
+            this.textBox3.Location = new System.Drawing.Point(341, 345);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 13;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(258, 345);
+            this.textBox4.Location = new System.Drawing.Point(475, 345);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 14;
