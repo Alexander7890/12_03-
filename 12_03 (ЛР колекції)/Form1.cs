@@ -80,20 +80,26 @@ namespace _12_03__ЛР_колекції_
                 labels[index].Text = textBox4.Text;
             }
         }
-
+        //Створює масив з трьох випадкових чисел і додає його до першої колекції.
         private void button7_Click(object sender, EventArgs e)
         {
             Random random = new Random();
-            List<int> array = new List<int> { random.Next(), random.Next(), random.Next() };
+            int[] array = new int[3];
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = random.Next(1, 100);
+            }
             collection1.Add(array.Sum());
+            listBox1.Items.Add(array.Sum());
         }
 
+        //
         private void button8_Click_1(object sender, EventArgs e)
         {
             var maxSumArray = collection1.OrderByDescending(x => x).First();
             MessageBox.Show("Масив з максимальною сумою елементів: " + maxSumArray);
         }
-        //
+
         private void button9_Click(object sender, EventArgs e)
         {
             listBox3.Items.Clear();
